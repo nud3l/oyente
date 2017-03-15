@@ -9,3 +9,9 @@ contract_data
 *.disasm
 *.report
 .DS_Store
+
+\.idea/
+
+dependencies/
+
+helpers/config\.py
