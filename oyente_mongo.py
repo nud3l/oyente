@@ -180,6 +180,9 @@ def main():
         except UnboundLocalError as e:
             print "{}: code id {} security analysis failed".format(e, code["_id"])
 
+        except IOError:
+            pass
+
 
 if __name__ == '__main__':
     main()
